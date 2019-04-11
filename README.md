@@ -1,3 +1,3 @@
 # textfilesplitter
 ##  command:
-  python splitter.py <filename> <number_of_splites>
+  python splitter.py <file_name> <number_of_splites>
