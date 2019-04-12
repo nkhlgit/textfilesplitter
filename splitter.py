@@ -12,7 +12,7 @@ def main(argv):
 
     in_file = open(input_file_name, 'r', encoding="utf8")
     k= 0
-    while (k <= num_output_files ):
+    while (k < num_output_files ):
         k += 1
         output_file_name = input_file_name + '_' + str(k)
         out_file = open(output_file_name, 'w', encoding="utf8")
